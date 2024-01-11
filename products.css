@@ -1,0 +1,95 @@
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EBF5FB;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_product{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    height: auto;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px #bdbdbdbd;
+}
+
+.product_image{
+    padding: 20px;
+}
+
+
+
+.card_country{
+    background-color: #01060a;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    
+}
+.card-text{
+    padding: 10px 0;
+}
+.regular_price{
+    padding: 10px 0;
+    text-decoration: line-through;
+}
+
+.info{
+    display: block;
+    color: grey;
+    padding-bottom: 15px;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: rgb(10, 247, 30);
+    width: 10px;
+    height: 10px;
+    margin: 0;
+}
+.stock{
+    padding: 15px;
+    font-style: italic;
+    font-size: 10px;
+}
+i{
+    padding-right: 5px;
+}
+
+button{
+    border-radius: 15px;
+    padding: 15px 10px;
+    border-color: #4788e9;
+    width: 100%;
+}
+.info_footer{
+    display: flex;
+    align-items: center;
+}
+.add{
+    width: 49%;
+    background-color: white;
+    border-color: #EBF5FB;
+}
+
+.button_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.buy_product{
+    background-color: #4788e9 ;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0px 10px 5px;
+}
+
+img{
+    max-height: 200px;
+}
